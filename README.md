@@ -1,6 +1,6 @@
 # ApexRimworldLegends
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Oskar Potockis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
@@ -8,10 +8,10 @@ with permission
 
 - Now includes the CE patches made by Heart Eyes
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 ![Image](https://i.imgur.com/tEVjIBi.png)
 
@@ -20,7 +20,7 @@ with permission
 
 1.3.0a (07/04/2019): Mod now compatible with Combat Extended using the patch in the following link. Thanks Andross for creating the patch.
 
-Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757
+[strike]Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757[/strike] Now included
 
 1.4.0 (19/02/2020): This mod is now 1.1 compatible.
 1.3.0 (01/04/2019): New weapons: Smoke Grenades &amp; Toxic Grenades. Gas your enemies to death! Added a Ko-fi support button.
@@ -79,10 +79,10 @@ A: That’s the plan! At the time of writing, L-Star is already in the mod, even
 Q: Is this mod compatibile with Combat Extended?
 A: It is with the patch. Load the patch after loading Apex Rimworld Legends.
 
-Link to the patch: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757
+[strike]Link to the patch: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757[/strike] Now included
 
 Q: Why is your mod special?
-A: I am a vanilla player. Anything that doesn&apos;t suit vanilla game makes me cringe and I stay away from it. I did however find the game lacking after some time, therefore I&apos;ve created these weapons to be as accurate and as close to vanilla graphics style as possible. What is special? The best part is - nothing in this mod is special at all. Nothing will make you go &quot;Oh that&apos;s unusual&quot;, because the whole purpose of this mod is to blend into the existing game.
+A: I am a vanilla player. Anything that doesn't suit vanilla game makes me cringe and I stay away from it. I did however find the game lacking after some time, therefore I've created these weapons to be as accurate and as close to vanilla graphics style as possible. What is special? The best part is - nothing in this mod is special at all. Nothing will make you go "Oh that's unusual", because the whole purpose of this mod is to blend into the existing game.
 
 Q: Is this mod save game compatible?
 A: Yes, you can add it and remove it whenever you like.
@@ -101,23 +101,13 @@ Rimworld is owned by Tynan Sylvester. Obviously.
 
 Pelador for help with advanced coding. Check out his mods!
 
-Andross for doing a CE Patch from scratch. Guy&apos;s a legend.
-
-![Image](https://i.imgur.com/TwxFuqi.png)
-
-
-ko-fi.com/oskarpotocki]![Image](https://i.imgur.com/wvjQku1.png)
-
-
-Dropbox: https://www.dropbox.com/s/qglch83c44vv77k/ApexRimworldLegends.rar?dl=0
-Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
-
+Andross for doing a CE Patch from scratch. Guy's a legend.
 
 ![Image](https://i.imgur.com/PiqAXpl.png)
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593&amp;searchtext=]![Image](https://i.imgur.com/yKvATIk.png)
+https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593]![Image](https://i.imgur.com/yKvATIk.png)
 
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://i.imgur.com/MkmFIei.png)
@@ -129,7 +119,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1700683323]![Image](https
 https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143]![Image](https://i.imgur.com/7lFbloq.png)
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

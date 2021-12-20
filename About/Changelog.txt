@@ -1,4 +1,7 @@
 # Changelog for ApexRimworldLegends
 
+1.0.1.0 - CE-patch is now included in the main CE-mod instead
+
+
 1.0.0.0 - First publish
 
