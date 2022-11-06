@@ -1,5 +1,8 @@
 # Changelog for ApexRimworldLegends
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.0.1.0 - CE-patch is now included in the main CE-mod instead
 
 

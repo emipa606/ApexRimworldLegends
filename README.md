@@ -6,7 +6,7 @@ Update of Oskar Potockis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 with permission
 
-- Now includes the CE patches made by Heart Eyes
+- [strike]Now includes the CE patches made by Heart Eyes[/strike] Patches now included in the main CE-mod instead
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -129,6 +129,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143]![Image](https
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
