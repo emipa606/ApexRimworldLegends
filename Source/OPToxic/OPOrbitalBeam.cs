@@ -47,7 +47,7 @@ public class OPOrbitalBeam : Gas
             (OPPowerBeam)GenSpawn.Spawn(DefDatabase<ThingDef>.GetNamed("OPPowerBeam"), position, map);
         oppowerBeam.duration = 120;
         oppowerBeam.instigator = this;
-        oppowerBeam.weaponDef = ThingDefOf.OrbitalTargeterPowerBeam;
+        oppowerBeam.weaponDef = DefDatabase<ThingDef>.GetNamedSilentFail("OrbitalTargeterPowerBeam");
         oppowerBeam.StartStrike();
         if (!this.DestroyedOrNull())
         {

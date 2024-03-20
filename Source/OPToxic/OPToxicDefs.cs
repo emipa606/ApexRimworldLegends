@@ -4,7 +4,7 @@ namespace OPToxic;
 
 public class OPToxicDefs : DefModExtension
 {
-    public int OPSevUpTickPeriod = 120;
+    public readonly int OPSevUpTickPeriod = 120;
 
     public string OPToxicHediff;
 

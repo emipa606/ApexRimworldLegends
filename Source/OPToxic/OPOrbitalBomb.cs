@@ -47,7 +47,7 @@ public class OPOrbitalBomb : Gas
             position, map);
         opbombardment.duration = 120;
         opbombardment.instigator = this;
-        opbombardment.weaponDef = ThingDefOf.OrbitalTargeterBombardment;
+        opbombardment.weaponDef = DefDatabase<ThingDef>.GetNamedSilentFail("OrbitalTargeterBombardment");
         opbombardment.StartStrike();
         if (!this.DestroyedOrNull())
         {

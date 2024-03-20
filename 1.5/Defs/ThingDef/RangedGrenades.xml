@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== ARC STAR ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>ARL_ChargeGrenade</defName>
+    <label>charge grenades</label>
+    <description>An Arc Star is a lightweight charge grenade dealing high damage over a very small area. It also serves as a great melee weapon.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/A16/arcstars</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>ARL_Interact_ChargeGrenade</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>3.66</RangedWeapon_Cooldown>
+      <WorkToMake>16000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Chemfuel>100</Chemfuel>
+      <Plasteel>175</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw charge grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>15.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>0.85</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ARL_Throw_ChargeGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>ARL_Projectile_ChargeGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.66</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>ARL_Projectile_ChargeGrenade</defName>
+    <label>charge grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/arcstar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ARL_Bomb_ChargeGrenade</damageDef>
+      <explosionRadius>1.6</explosionRadius>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+      <explosionDelay>30</explosionDelay>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== SMOKE GRENADE ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>ARL_SmokeGrenade</defName>
+    <label>smoke grenades</label>
+    <description>Old school condensed smoke canister that explodes into a smoke wall on impact.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/A16/smokegrenades</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>4.66</RangedWeapon_Cooldown>
+      <WorkToMake>5000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>SmokepopBelt</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Chemfuel>75</Chemfuel>
+      <Steel>25</Steel>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw smoke grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>15.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.8</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>ARL_Projectile_SmokeGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.66</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>ARL_Projectile_SmokeGrenade</defName>
+    <label>smoke grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/GrenadeSmoke</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>4.3</explosionRadius>
+      <damageDef>Smoke</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <explosionDelay>100</explosionDelay>
+      <postExplosionGasType>BlindSmoke</postExplosionGasType>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== TOXIC GRENADE ========================== -->
+  <ThingDef Name="BaseOPToxMakeableGrenade" ParentName="BaseWeapon" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="BaseOPToxGrenadeProjectile" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>12</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+  <!-- Grenade -->
+  <ThingDef ParentName="BaseOPToxMakeableGrenade">
+    <defName>ARL_ToxicGrenade</defName>
+    <label>toxic grenades</label>
+    <description>Charge powered lethal gas canister causing severe toxic buildup over a very short period of time.</description>
+    <graphicData>
+      <texPath>Things/A16/ToxicGrenades</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <tickerType>Normal</tickerType>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <generateCommonality>0.1</generateCommonality>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>1.0</Mass>
+      <RangedWeapon_Cooldown>4.66</RangedWeapon_Cooldown>
+      <Flammability>1.0</Flammability>
+      <SellPriceFactor>0.5</SellPriceFactor>
+      <MarketValue>850</MarketValue>
+    </statBases>
+    <costList>
+      <Chemfuel>200</Chemfuel>
+      <Plasteel>165</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <label>throw toxic grenade</label>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ARL_Projectile_ToxicGrenade</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <range>12.9</range>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>ThrowGrenade</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.66</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseOPToxGrenadeProjectile">
+    <defName>ARL_Projectile_ToxicGrenade</defName>
+    <label>toxic grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/GrenadeToxic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>ARL_ToxicGas</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>10</speed>
+      <explosionRadius>3.9</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+      <soundExplode>DispensePaste</soundExplode>
+      <postExplosionSpawnThingDef>ARL_ToxicGasCloud</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <explosionDelay>100</explosionDelay>
+    </projectile>
+  </ThingDef>
+</Defs>

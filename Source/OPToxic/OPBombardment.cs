@@ -117,6 +117,6 @@ public class OPBombardment : OrbitalStrike
         FireUtility.TryStartFireIn((from x in GenRadial.RadialCellsAround(Position, num, true)
                 where x.InBounds(Map)
                 select x).RandomElementByWeight(x => DistanceChanceFactor.Evaluate(x.DistanceTo(Position))), Map,
-            Rand.Range(0.1f, 0.925f));
+            Rand.Range(0.1f, 0.925f), null);
     }
 }
