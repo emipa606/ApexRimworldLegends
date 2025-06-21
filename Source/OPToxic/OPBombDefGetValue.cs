@@ -4,23 +4,23 @@ namespace OPToxic;
 
 public class OPBombDefGetValue
 {
-    public static int OPBombGetDmg(ThingDef thingdef)
+    public static int OpBombGetDmg(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBombDefs>() ? thingdef.GetModExtension<OPBombDefs>().OPBombDmg : 25;
+        return thingDef.HasModExtension<OPBombDefs>() ? thingDef.GetModExtension<OPBombDefs>().OPBombDmg : 25;
     }
 
-    public static int OPBombGetImpactRadius(ThingDef thingdef)
+    public static int OpBombGetImpactRadius(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBombDefs>() ? thingdef.GetModExtension<OPBombDefs>().OPBombImpactRadius : 12;
+        return thingDef.HasModExtension<OPBombDefs>() ? thingDef.GetModExtension<OPBombDefs>().OPBombImpactRadius : 12;
     }
 
-    public static int OPBombGetBlastMinRadius(ThingDef thingdef)
+    public static int OpBombGetBlastMinRadius(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBombDefs>() ? thingdef.GetModExtension<OPBombDefs>().OPBombBlastMinRadius : 4;
+        return thingDef.HasModExtension<OPBombDefs>() ? thingDef.GetModExtension<OPBombDefs>().OPBombBlastMinRadius : 4;
     }
 
-    public static int OPBombGetBlastMaxRadius(ThingDef thingdef)
+    public static int OpBombGetBlastMaxRadius(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBombDefs>() ? thingdef.GetModExtension<OPBombDefs>().OPBombBlastMaxRadius : 6;
+        return thingDef.HasModExtension<OPBombDefs>() ? thingDef.GetModExtension<OPBombDefs>().OPBombBlastMaxRadius : 6;
     }
 }

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: assault carbine -->
+  <ARL_AssaultCarbine.label>assault carbine</ARL_AssaultCarbine.label>
+  <!-- EN: Full auto and high accuracy make this weapon desirable in the Rimworlds, however low damage and armor penetration makes it often unreliable against armored enemies. -->
+  <ARL_AssaultCarbine.description>Full auto and high accuracy make this weapon desirable in the Rimworlds, however low damage and armor penetration makes it often unreliable against armored enemies.</ARL_AssaultCarbine.description>
+  <!-- EN: stock -->
+  <ARL_AssaultCarbine.tools.stock.label>stock</ARL_AssaultCarbine.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_AssaultCarbine.tools.barrel.label>barrel</ARL_AssaultCarbine.tools.barrel.label>
+  <!-- EN: assault carbine -->
+  <ARL_AssaultCarbine.verbs.Verb_Shoot.label>assault carbine</ARL_AssaultCarbine.verbs.Verb_Shoot.label>
+  <!-- EN: battle rifle -->
+  <ARL_BattleRifle.label>battle rifle</ARL_BattleRifle.label>
+  <!-- EN: The factory issue Hemlok fires a two-round burst. While this can be a liability at short range, this tradeoff allowed the glitterworld engineers to deliver a weapon with a good balance of long-range accuracy, damage, and fire rate. -->
+  <ARL_BattleRifle.description>The factory issue Hemlok fires a two-round burst. While this can be a liability at short range, this tradeoff allowed the glitterworld engineers to deliver a weapon with a good balance of long-range accuracy, damage, and fire rate.</ARL_BattleRifle.description>
+  <!-- EN: stock -->
+  <ARL_BattleRifle.tools.stock.label>stock</ARL_BattleRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_BattleRifle.tools.barrel.label>barrel</ARL_BattleRifle.tools.barrel.label>
+  <!-- EN: battle rifle -->
+  <ARL_BattleRifle.verbs.Verb_Shoot.label>battle rifle</ARL_BattleRifle.verbs.Verb_Shoot.label>
+  <!-- EN: assault carbine bullet -->
+  <ARL_Bullet_AssaultCarbine.label>assault carbine bullet</ARL_Bullet_AssaultCarbine.label>
+  <!-- EN: battle rifle bullet -->
+  <ARL_Bullet_BattleRifle.label>battle rifle bullet</ARL_Bullet_BattleRifle.label>
+  <!-- EN: bullpup rifle bullet -->
+  <ARL_Bullet_BullpupRifle.label>bullpup rifle bullet</ARL_Bullet_BullpupRifle.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_ChargeLMG.label>charge shot</ARL_Bullet_ChargeLMG.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_ChargeMinigun.label>charge shot</ARL_Bullet_ChargeMinigun.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_ChargePistol.label>charge shot</ARL_Bullet_ChargePistol.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_ChargeShotgun.label>charge shot</ARL_Bullet_ChargeShotgun.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_ChargeSMG.label>charge shot</ARL_Bullet_ChargeSMG.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_ChargeSniperRifle.label>charge shot</ARL_Bullet_ChargeSniperRifle.label>
+  <!-- EN: combat handgun bullet -->
+  <ARL_Bullet_CombatHandgun.label>combat handgun bullet</ARL_Bullet_CombatHandgun.label>
+  <!-- EN: compact SMG bullet -->
+  <ARL_Bullet_CompactSMG.label>compact SMG bullet</ARL_Bullet_CompactSMG.label>
+  <!-- EN: frag grenade -->
+  <ARL_Bullet_GrenadeLauncher.label>frag grenade</ARL_Bullet_GrenadeLauncher.label>
+  <!-- EN: hand cannon bullet -->
+  <ARL_Bullet_HandCannon.label>hand cannon bullet</ARL_Bullet_HandCannon.label>
+  <!-- EN: HMG bullet -->
+  <ARL_Bullet_HMG.label>HMG bullet</ARL_Bullet_HMG.label>
+  <!-- EN: shotgun blast -->
+  <ARL_Bullet_LeverActionShotgun.label>shotgun blast</ARL_Bullet_LeverActionShotgun.label>
+  <!-- EN: light SMG bullet -->
+  <ARL_Bullet_LightSMG.label>light SMG bullet</ARL_Bullet_LightSMG.label>
+  <!-- EN: marksman rifle bullet -->
+  <ARL_Bullet_MarksmanRifle.label>marksman rifle bullet</ARL_Bullet_MarksmanRifle.label>
+  <!-- EN: mechanoid LMG bullet -->
+  <ARL_Bullet_MechanoidLMG.label>mechanoid LMG bullet</ARL_Bullet_MechanoidLMG.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_MechanoidRifle.label>charge shot</ARL_Bullet_MechanoidRifle.label>
+  <!-- EN: mini-inferno shell -->
+  <ARL_Bullet_MechanoidRocketLauncher.label>mini-inferno shell</ARL_Bullet_MechanoidRocketLauncher.label>
+  <!-- EN: charge shot -->
+  <ARL_Bullet_MechanoidSniperRifle.label>charge shot</ARL_Bullet_MechanoidSniperRifle.label>
+  <!-- EN: semi-automatic rifle bullet -->
+  <ARL_Bullet_SemiautomaticRifle.label>semi-automatic rifle bullet</ARL_Bullet_SemiautomaticRifle.label>
+  <!-- EN: shotgun blast -->
+  <ARL_Bullet_SemiAutomaticShotgun.label>shotgun blast</ARL_Bullet_SemiAutomaticShotgun.label>
+  <!-- EN: shotgun handgun blast -->
+  <ARL_Bullet_ShotgunHandgun.label>shotgun handgun blast</ARL_Bullet_ShotgunHandgun.label>
+  <!-- EN: bullpup rifle -->
+  <ARL_BullpupRifle.label>bullpup rifle</ARL_BullpupRifle.label>
+  <!-- EN: The VK-47 Flatline is an anti-personnel fully automatic bullpup assault rifle. It has negligible vertical recoil, instead involving an extreme degree of horizontal recoil, similar to the Alternator light SMG. -->
+  <ARL_BullpupRifle.description>The VK-47 Flatline is an anti-personnel fully automatic bullpup assault rifle. It has negligible vertical recoil, instead involving an extreme degree of horizontal recoil, similar to the Alternator light SMG.</ARL_BullpupRifle.description>
+  <!-- EN: stock -->
+  <ARL_BullpupRifle.tools.stock.label>stock</ARL_BullpupRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_BullpupRifle.tools.barrel.label>barrel</ARL_BullpupRifle.tools.barrel.label>
+  <!-- EN: bullpup rifle -->
+  <ARL_BullpupRifle.verbs.Verb_Shoot.label>bullpup rifle</ARL_BullpupRifle.verbs.Verb_Shoot.label>
+  <!-- EN: charge LMG -->
+  <ARL_ChargeLMG.label>charge LMG</ARL_ChargeLMG.label>
+  <!-- EN: The X-55 Devotion is a charge LMG capable of firing armour piercing projectiles at insane speed with almost no need to reload. The further away the target, the more accurate Devotion gets. -->
+  <ARL_ChargeLMG.description>The X-55 Devotion is a charge LMG capable of firing armour piercing projectiles at insane speed with almost no need to reload. The further away the target, the more accurate Devotion gets.</ARL_ChargeLMG.description>
+  <!-- EN: stock -->
+  <ARL_ChargeLMG.tools.stock.label>stock</ARL_ChargeLMG.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_ChargeLMG.tools.barrel.label>barrel</ARL_ChargeLMG.tools.barrel.label>
+  <!-- EN: charge LMG -->
+  <ARL_ChargeLMG.verbs.Verb_Shoot.label>charge LMG</ARL_ChargeLMG.verbs.Verb_Shoot.label>
+  <!-- EN: charge minigun -->
+  <ARL_ChargeMinigun.label>charge minigun</ARL_ChargeMinigun.label>
+  <!-- EN: The 40mm Charge Minigun (Or "40 mil") is a multi-purpose/ anti-vehicle automatic cannon. It is a popular and versatile armament often fielded by glitterworld soldiers operating in medium to long-distance engagements. The 40mm cartridge can be lethal to both enemy personnel and vehicles due to explosive shells. -->
+  <ARL_ChargeMinigun.description>The 40mm Charge Minigun (Or "40 mil") is a multi-purpose/ anti-vehicle automatic cannon. It is a popular and versatile armament often fielded by glitterworld soldiers operating in medium to long-distance engagements. The 40mm cartridge can be lethal to both enemy personnel and vehicles due to explosive shells.</ARL_ChargeMinigun.description>
+  <!-- EN: stock -->
+  <ARL_ChargeMinigun.tools.stock.label>stock</ARL_ChargeMinigun.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_ChargeMinigun.tools.barrel.label>barrel</ARL_ChargeMinigun.tools.barrel.label>
+  <!-- EN: charge minigun -->
+  <ARL_ChargeMinigun.verbs.Verb_Shoot.label>charge minigun</ARL_ChargeMinigun.verbs.Verb_Shoot.label>
+  <!-- EN: charge pistol -->
+  <ARL_ChargePistol.label>charge pistol</ARL_ChargePistol.label>
+  <!-- EN: The RE-45 is a fully automatic charge pistol, sacrificing damage and accuracy at longer distances for improved effectiveness at close range. -->
+  <ARL_ChargePistol.description>The RE-45 is a fully automatic charge pistol, sacrificing damage and accuracy at longer distances for improved effectiveness at close range.</ARL_ChargePistol.description>
+  <!-- EN: grip -->
+  <ARL_ChargePistol.tools.grip.label>grip</ARL_ChargePistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <ARL_ChargePistol.tools.barrel.label>barrel</ARL_ChargePistol.tools.barrel.label>
+  <!-- EN: charge pistol -->
+  <ARL_ChargePistol.verbs.Verb_Shoot.label>charge pistol</ARL_ChargePistol.verbs.Verb_Shoot.label>
+  <!-- EN: charge shotgun -->
+  <ARL_ChargeShotgun.label>charge shotgun</ARL_ChargeShotgun.label>
+  <!-- EN: Intended for low-zero gravity ship boarding and clearing operations, the Mastiff gained notoriety throughout The Rimworlds as a reliable and devastating combat shotgun. -->
+  <ARL_ChargeShotgun.description>Intended for low-zero gravity ship boarding and clearing operations, the Mastiff gained notoriety throughout The Rimworlds as a reliable and devastating combat shotgun.</ARL_ChargeShotgun.description>
+  <!-- EN: stock -->
+  <ARL_ChargeShotgun.tools.stock.label>stock</ARL_ChargeShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_ChargeShotgun.tools.barrel.label>barrel</ARL_ChargeShotgun.tools.barrel.label>
+  <!-- EN: charge shotgun -->
+  <ARL_ChargeShotgun.verbs.Verb_Shoot.label>charge shotgun</ARL_ChargeShotgun.verbs.Verb_Shoot.label>
+  <!-- EN: charge SMG -->
+  <ARL_ChargeSMG.label>charge SMG</ARL_ChargeSMG.label>
+  <!-- EN: The Prowler Burst PDW is 3 round fast burst firing anti-personnel charge personal defense weapon (PDW). Lethal in close quarters, Prowler is known for terrible accuracy long range. -->
+  <ARL_ChargeSMG.description>The Prowler Burst PDW is 3 round fast burst firing anti-personnel charge personal defense weapon (PDW). Lethal in close quarters, Prowler is known for terrible accuracy long range.</ARL_ChargeSMG.description>
+  <!-- EN: stock -->
+  <ARL_ChargeSMG.tools.stock.label>stock</ARL_ChargeSMG.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_ChargeSMG.tools.barrel.label>barrel</ARL_ChargeSMG.tools.barrel.label>
+  <!-- EN: charge SMG -->
+  <ARL_ChargeSMG.verbs.Verb_Shoot.label>charge SMG</ARL_ChargeSMG.verbs.Verb_Shoot.label>
+  <!-- EN: charge sniper rifle -->
+  <ARL_ChargeSniperRifle.label>charge sniper rifle</ARL_ChargeSniperRifle.label>
+  <!-- EN: The Triple Take is a triple-barrel marksman rifle that consumes 3 bullets per shot. The shots are fired side by side, and the default sights have two chevrons, indicating where the shots will land. -->
+  <ARL_ChargeSniperRifle.description>The Triple Take is a triple-barrel marksman rifle that consumes 3 bullets per shot. The shots are fired side by side, and the default sights have two chevrons, indicating where the shots will land.</ARL_ChargeSniperRifle.description>
+  <!-- EN: stock -->
+  <ARL_ChargeSniperRifle.tools.stock.label>stock</ARL_ChargeSniperRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_ChargeSniperRifle.tools.barrel.label>barrel</ARL_ChargeSniperRifle.tools.barrel.label>
+  <!-- EN: charge sniper rifle -->
+  <ARL_ChargeSniperRifle.verbs.Verb_Shoot.label>charge sniper rifle</ARL_ChargeSniperRifle.verbs.Verb_Shoot.label>
+  <!-- EN: combat handgun -->
+  <ARL_CombatHandgun.label>combat handgun</ARL_CombatHandgun.label>
+  <!-- EN: The Hammond P2020 is a semi-automatic handgun with good accuracy and damage at range. Its integrated 'match trigger' allows it to be fired very rapidly, which is useful in close quarters. -->
+  <ARL_CombatHandgun.description>The Hammond P2020 is a semi-automatic handgun with good accuracy and damage at range. Its integrated 'match trigger' allows it to be fired very rapidly, which is useful in close quarters.</ARL_CombatHandgun.description>
+  <!-- EN: grip -->
+  <ARL_CombatHandgun.tools.grip.label>grip</ARL_CombatHandgun.tools.grip.label>
+  <!-- EN: barrel -->
+  <ARL_CombatHandgun.tools.barrel.label>barrel</ARL_CombatHandgun.tools.barrel.label>
+  <!-- EN: combat handgun -->
+  <ARL_CombatHandgun.verbs.Verb_Shoot.label>combat handgun</ARL_CombatHandgun.verbs.Verb_Shoot.label>
+  <!-- EN: compact SMG -->
+  <ARL_CompactSMG.label>compact SMG</ARL_CompactSMG.label>
+  <!-- EN: The R-99 is a compact submachine gun that excels at close-quarters combat, due to its extremely high rate of fire and minimal recoil. -->
+  <ARL_CompactSMG.description>The R-99 is a compact submachine gun that excels at close-quarters combat, due to its extremely high rate of fire and minimal recoil.</ARL_CompactSMG.description>
+  <!-- EN: grip -->
+  <ARL_CompactSMG.tools.grip.label>grip</ARL_CompactSMG.tools.grip.label>
+  <!-- EN: barrel -->
+  <ARL_CompactSMG.tools.barrel.label>barrel</ARL_CompactSMG.tools.barrel.label>
+  <!-- EN: compact SMG -->
+  <ARL_CompactSMG.verbs.Verb_Shoot.label>compact SMG</ARL_CompactSMG.verbs.Verb_Shoot.label>
+  <!-- EN: grenade launcher -->
+  <ARL_GrenadeLauncher.label>grenade launcher</ARL_GrenadeLauncher.label>
+  <!-- EN: The R-6P Softball Anti-Armor Grenade Launcher (AAGL) is a rotary magazine grenade launcher. It is lightweight and stowable, which allows its operator to quickly fire and maneuver. -->
+  <ARL_GrenadeLauncher.description>The R-6P Softball Anti-Armor Grenade Launcher (AAGL) is a rotary magazine grenade launcher. It is lightweight and stowable, which allows its operator to quickly fire and maneuver.</ARL_GrenadeLauncher.description>
+  <!-- EN: stock -->
+  <ARL_GrenadeLauncher.tools.stock.label>stock</ARL_GrenadeLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_GrenadeLauncher.tools.barrel.label>barrel</ARL_GrenadeLauncher.tools.barrel.label>
+  <!-- EN: grenade launcher -->
+  <ARL_GrenadeLauncher.verbs.Verb_Shoot.label>grenade launcher</ARL_GrenadeLauncher.verbs.Verb_Shoot.label>
+  <!-- EN: hand cannon -->
+  <ARL_HandCannon.label>hand cannon</ARL_HandCannon.label>
+  <!-- EN: The B3 Wingman is an extremely powerful revolver with very high accuracy out to long ranges. Precision aim is required to mitigate the disadvantages of its very low rate of fire. -->
+  <ARL_HandCannon.description>The B3 Wingman is an extremely powerful revolver with very high accuracy out to long ranges. Precision aim is required to mitigate the disadvantages of its very low rate of fire.</ARL_HandCannon.description>
+  <!-- EN: grip -->
+  <ARL_HandCannon.tools.grip.label>grip</ARL_HandCannon.tools.grip.label>
+  <!-- EN: barrel -->
+  <ARL_HandCannon.tools.barrel.label>barrel</ARL_HandCannon.tools.barrel.label>
+  <!-- EN: hand cannon -->
+  <ARL_HandCannon.verbs.Verb_Shoot.label>hand cannon</ARL_HandCannon.verbs.Verb_Shoot.label>
+  <!-- EN: HMG -->
+  <ARL_HMG.label>HMG</ARL_HMG.label>
+  <!-- EN: The Spitfire Heavy Machine Gun recoils heavily when first fired, but quickly settles into a tight firing pattern. The manufacturer strongly recommends sustained saturating fire, instead of short controlled bursts. -->
+  <ARL_HMG.description>The Spitfire Heavy Machine Gun recoils heavily when first fired, but quickly settles into a tight firing pattern. The manufacturer strongly recommends sustained saturating fire, instead of short controlled bursts.</ARL_HMG.description>
+  <!-- EN: barrels -->
+  <ARL_HMG.tools.barrels.label>barrels</ARL_HMG.tools.barrels.label>
+  <!-- EN: HMG -->
+  <ARL_HMG.verbs.Verb_Shoot.label>HMG</ARL_HMG.verbs.Verb_Shoot.label>
+  <!-- EN: lever-action shotgun -->
+  <ARL_LeverActionShotgun.label>lever-action shotgun</ARL_LeverActionShotgun.label>
+  <!-- EN: The Peacekeeper is an anti-personnel lever-action shotgun, with rail-operated barrel firing mechanism. Despite not possessing a stopping power of a pump action shotgun, Peacekeeper reload time is much faster. -->
+  <ARL_LeverActionShotgun.description>The Peacekeeper is an anti-personnel lever-action shotgun, with rail-operated barrel firing mechanism. Despite not possessing a stopping power of a pump action shotgun, Peacekeeper reload time is much faster.</ARL_LeverActionShotgun.description>
+  <!-- EN: stock -->
+  <ARL_LeverActionShotgun.tools.stock.label>stock</ARL_LeverActionShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_LeverActionShotgun.tools.barrel.label>barrel</ARL_LeverActionShotgun.tools.barrel.label>
+  <!-- EN: lever-action shotgun -->
+  <ARL_LeverActionShotgun.verbs.Verb_Shoot.label>lever-action shotgun</ARL_LeverActionShotgun.verbs.Verb_Shoot.label>
+  <!-- EN: light SMG -->
+  <ARL_LightSMG.label>light SMG</ARL_LightSMG.label>
+  <!-- EN: Twin Barrel SMG with the clip twice the size of a machine pistol. Lethal in close quarters. -->
+  <ARL_LightSMG.description>Twin Barrel SMG with the clip twice the size of a machine pistol. Lethal in close quarters.</ARL_LightSMG.description>
+  <!-- EN: grip -->
+  <ARL_LightSMG.tools.grip.label>grip</ARL_LightSMG.tools.grip.label>
+  <!-- EN: barrel -->
+  <ARL_LightSMG.tools.barrel.label>barrel</ARL_LightSMG.tools.barrel.label>
+  <!-- EN: light SMG -->
+  <ARL_LightSMG.verbs.Verb_Shoot.label>light SMG</ARL_LightSMG.verbs.Verb_Shoot.label>
+  <!-- EN: marksman rifle -->
+  <ARL_MarksmanRifle.label>marksman rifle</ARL_MarksmanRifle.label>
+  <!-- EN: The Longbow-DMR is a semi-automatic sniper rifle. Its hyper-velocity round completely eliminates the need to lead targets, and allows the shooter to fire multiple shots quickly in succession. -->
+  <ARL_MarksmanRifle.description>The Longbow-DMR is a semi-automatic sniper rifle. Its hyper-velocity round completely eliminates the need to lead targets, and allows the shooter to fire multiple shots quickly in succession.</ARL_MarksmanRifle.description>
+  <!-- EN: stock -->
+  <ARL_MarksmanRifle.tools.stock.label>stock</ARL_MarksmanRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_MarksmanRifle.tools.barrel.label>barrel</ARL_MarksmanRifle.tools.barrel.label>
+  <!-- EN: marksman rifle -->
+  <ARL_MarksmanRifle.verbs.Verb_Shoot.label>marksman rifle</ARL_MarksmanRifle.verbs.Verb_Shoot.label>
+  <!-- EN: mechanoid LMG -->
+  <ARL_MechanoidLMG.label>mechanoid LMG</ARL_MechanoidLMG.label>
+  <!-- EN: The L-STAR is a rapid fire particle accelerating charge light machine gun. It fires energy bolts at a moderate speed at the target. Perfect for area suppresion, this weapon uses salvaged mechanoid technology. -->
+  <ARL_MechanoidLMG.description>The L-STAR is a rapid fire particle accelerating charge light machine gun. It fires energy bolts at a moderate speed at the target. Perfect for area suppresion, this weapon uses salvaged mechanoid technology.</ARL_MechanoidLMG.description>
+  <!-- EN: stock -->
+  <ARL_MechanoidLMG.tools.stock.label>stock</ARL_MechanoidLMG.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_MechanoidLMG.tools.barrel.label>barrel</ARL_MechanoidLMG.tools.barrel.label>
+  <!-- EN: mechanoid LMG -->
+  <ARL_MechanoidLMG.verbs.Verb_Shoot.label>mechanoid LMG</ARL_MechanoidLMG.verbs.Verb_Shoot.label>
+  <!-- EN: mechanoid rifle -->
+  <ARL_MechanoidRifle.label>mechanoid rifle</ARL_MechanoidRifle.label>
+  <!-- EN: The Havoc Rifle fires two energy beam bursts that inflicts massive damage. Holding the trigger charges the weapon. Timing is critical to its use: this weapon will only fire when it reaches full charge and reloading takes a little while. -->
+  <ARL_MechanoidRifle.description>The Havoc Rifle fires two energy beam bursts that inflicts massive damage. Holding the trigger charges the weapon. Timing is critical to its use: this weapon will only fire when it reaches full charge and reloading takes a little while.</ARL_MechanoidRifle.description>
+  <!-- EN: stock -->
+  <ARL_MechanoidRifle.tools.stock.label>stock</ARL_MechanoidRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_MechanoidRifle.tools.barrel.label>barrel</ARL_MechanoidRifle.tools.barrel.label>
+  <!-- EN: mechanoid rifle -->
+  <ARL_MechanoidRifle.verbs.Verb_Shoot.label>mechanoid rifle</ARL_MechanoidRifle.verbs.Verb_Shoot.label>
+  <!-- EN: mechanoid inferno launcher -->
+  <ARL_MechanoidRocketLauncher.label>mechanoid inferno launcher</ARL_MechanoidRocketLauncher.label>
+  <!-- EN: The Mechanoid Rocket launcher fires eight small rockets at once in its primary firing mode that are effective at temporarily denying territory to the enemy. -->
+  <ARL_MechanoidRocketLauncher.description>The Mechanoid Rocket launcher fires eight small rockets at once in its primary firing mode that are effective at temporarily denying territory to the enemy.</ARL_MechanoidRocketLauncher.description>
+  <!-- EN: stock -->
+  <ARL_MechanoidRocketLauncher.tools.stock.label>stock</ARL_MechanoidRocketLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_MechanoidRocketLauncher.tools.barrel.label>barrel</ARL_MechanoidRocketLauncher.tools.barrel.label>
+  <!-- EN: mechanoid inferno launcher -->
+  <ARL_MechanoidRocketLauncher.verbs.Verb_Shoot.label>mechanoid inferno launcher</ARL_MechanoidRocketLauncher.verbs.Verb_Shoot.label>
+  <!-- EN: mechanoid sniper rifle -->
+  <ARL_MechanoidSniperRifle.label>mechanoid sniper rifle</ARL_MechanoidSniperRifle.label>
+  <!-- EN: The Kraber fires a unique round that ensures 'one-shot,one-kill' results against human-scale targets. However, considerable judgement in leading is required, making this a difficult weapon to use against moving targets. -->
+  <ARL_MechanoidSniperRifle.description>The Kraber fires a unique round that ensures 'one-shot,one-kill' results against human-scale targets. However, considerable judgement in leading is required, making this a difficult weapon to use against moving targets.</ARL_MechanoidSniperRifle.description>
+  <!-- EN: stock -->
+  <ARL_MechanoidSniperRifle.tools.stock.label>stock</ARL_MechanoidSniperRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_MechanoidSniperRifle.tools.barrel.label>barrel</ARL_MechanoidSniperRifle.tools.barrel.label>
+  <!-- EN: mechanoid sniper rifle -->
+  <ARL_MechanoidSniperRifle.verbs.Verb_Shoot.label>mechanoid sniper rifle</ARL_MechanoidSniperRifle.verbs.Verb_Shoot.label>
+  <!-- EN: semi-automatic rifle -->
+  <ARL_SemiautomaticRifle.label>semi-automatic rifle</ARL_SemiautomaticRifle.label>
+  <!-- EN: Despite recent advances in weapons technology, the older G7 Scout semi-automatic rifle remains a favorite of special forces units due to damage and extremely precise fire - a testament to its high level of craftsmanship. -->
+  <ARL_SemiautomaticRifle.description>Despite recent advances in weapons technology, the older G7 Scout semi-automatic rifle remains a favorite of special forces units due to damage and extremely precise fire - a testament to its high level of craftsmanship.</ARL_SemiautomaticRifle.description>
+  <!-- EN: stock -->
+  <ARL_SemiautomaticRifle.tools.stock.label>stock</ARL_SemiautomaticRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_SemiautomaticRifle.tools.barrel.label>barrel</ARL_SemiautomaticRifle.tools.barrel.label>
+  <!-- EN: semi-automatic rifle -->
+  <ARL_SemiautomaticRifle.verbs.Verb_Shoot.label>semi-automatic rifle</ARL_SemiautomaticRifle.verbs.Verb_Shoot.label>
+  <!-- EN: semi-automatic shotgun -->
+  <ARL_SemiAutomaticShotgun.label>semi-automatic shotgun</ARL_SemiAutomaticShotgun.label>
+  <!-- EN: The EVA-8 is a semi-automatic shotgun, originally designed for extra-vehicular activity, both in conventional and in exo-atmospheric conditions. -->
+  <ARL_SemiAutomaticShotgun.description>The EVA-8 is a semi-automatic shotgun, originally designed for extra-vehicular activity, both in conventional and in exo-atmospheric conditions.</ARL_SemiAutomaticShotgun.description>
+  <!-- EN: stock -->
+  <ARL_SemiAutomaticShotgun.tools.stock.label>stock</ARL_SemiAutomaticShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <ARL_SemiAutomaticShotgun.tools.barrel.label>barrel</ARL_SemiAutomaticShotgun.tools.barrel.label>
+  <!-- EN: semi-automatic shotgun -->
+  <ARL_SemiAutomaticShotgun.verbs.Verb_Shoot.label>semi-automatic shotgun</ARL_SemiAutomaticShotgun.verbs.Verb_Shoot.label>
+  <!-- EN: shotgun handgun -->
+  <ARL_ShotgunHandgun.label>shotgun handgun</ARL_ShotgunHandgun.label>
+  <!-- EN: Controlled spread triple barrel shotgun pistol. -->
+  <ARL_ShotgunHandgun.description>Controlled spread triple barrel shotgun pistol.</ARL_ShotgunHandgun.description>
+  <!-- EN: grip -->
+  <ARL_ShotgunHandgun.tools.grip.label>grip</ARL_ShotgunHandgun.tools.grip.label>
+  <!-- EN: barrel -->
+  <ARL_ShotgunHandgun.tools.barrel.label>barrel</ARL_ShotgunHandgun.tools.barrel.label>
+  <!-- EN: shotgun handgun -->
+  <ARL_ShotgunHandgun.verbs.Verb_Shoot.label>shotgun handgun</ARL_ShotgunHandgun.verbs.Verb_Shoot.label>
+</LanguageData>

@@ -4,20 +4,20 @@ namespace OPToxic;
 
 public class OPToxicDefGetValue
 {
-    public static string OPToxicGetHediff(ThingDef thingdef)
+    public static string OpToxicGetHediff(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPToxicDefs>() ? thingdef.GetModExtension<OPToxicDefs>().OPToxicHediff : null;
+        return thingDef.HasModExtension<OPToxicDefs>() ? thingDef.GetModExtension<OPToxicDefs>().OPToxicHediff : null;
     }
 
-    public static float OPToxicGetSev(ThingDef thingdef)
+    public static float OpToxicGetSev(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPToxicDefs>() ? thingdef.GetModExtension<OPToxicDefs>().OPToxicSeverity : 0f;
+        return thingDef.HasModExtension<OPToxicDefs>() ? thingDef.GetModExtension<OPToxicDefs>().OPToxicSeverity : 0f;
     }
 
-    public static int OPToxicGetSevUpVal(ThingDef thingdef)
+    public static int OpToxicGetSevUpVal(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPToxicDefs>()
-            ? thingdef.GetModExtension<OPToxicDefs>().OPSevUpTickPeriod
+        return thingDef.HasModExtension<OPToxicDefs>()
+            ? thingDef.GetModExtension<OPToxicDefs>().OPSevUpTickPeriod
             : 120;
     }
 }

@@ -1,0 +1,74 @@
+ManifestFileVersion: 0
+CRC: 959864515
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f73e7949c2813982d9a159a1b558dcd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3f73e7949c2813982d9a159a1b558dcd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/g7-scout.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/arcstar.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Shot_ChargeShotgun.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/40mm-tracker-cannon.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/devotion.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Shot_ChargeSniperRifle.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/p2020.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/FlareRed/FlareRedB.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/BombardmentGrenades.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/eva-8.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/ToxicGrenades.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/peacekeeper.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Throw_ChargeGrenade.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/GrenadeBombardment.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/prowler.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/kraber.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Interact_ChargeLMG.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/r-99.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/Charge_Explosive.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Interact_ChargeGrenade.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/l-star.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Shot_MechanoidSniperRifle.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/FlareRed/FlareRedE.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/wingman.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Shot_ShotgunHandgun.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/mastiff.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Explosion_ChargeGrenade.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/alternator.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Shot_BullpupRifle.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/mozambique.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/FlareRed/FlareRedF.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/hemlok.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/r-301.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/GrenadeSmoke.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Shot_ChargeMinigun.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/re-45.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/GrenadeToxic.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/bullet_Charge_Shotgun.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/smokegrenades.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/arcstars.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/longbow-dmr.png
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Interact_LeverActionShotgun.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Sounds/Things/ARL_Rack_MechanoidSniperRifle.ogg
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/quad-rocket.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/FlareRed/FlareRedC.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/FlareRed/FlareRedA.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/FlareRed/FlareRedD.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/m600-spitfire.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/vk-47-flatline.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/Projectile/ExplosiveCannonShot.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/havoc-rifle.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/softball.png
+- Assets/Data/Mlie.ApexRimworldLegends/Textures/Things/A16/triple-take.png
+Dependencies: []

@@ -6,16 +6,6 @@ namespace OPToxic;
 
 public class OPBombardment : OrbitalStrike
 {
-    private const int ImpactAreaRadius = 12;
-
-    private const int ExplosionRadiusMin = 4;
-
-    private const int ExplosionRadiusMax = 6;
-
-    public const int EffectiveRadius = 13;
-
-    public const int RandomFireRadius = 15;
-
     private const int BombIntervalTicks = 28;
 
     private const int StartRandomFireEveryTicks = 30;
@@ -34,7 +24,7 @@ public class OPBombardment : OrbitalStrike
         base.StartStrike();
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Destroyed)
@@ -42,12 +32,12 @@ public class OPBombardment : OrbitalStrike
             return;
         }
 
-        if (Find.TickManager.TicksGame % 28 == 0)
+        if (Find.TickManager.TicksGame % BombIntervalTicks == 0)
         {
             CreateRandomExplosion();
         }
 
-        if (Find.TickManager.TicksGame % 30 == 0)
+        if (Find.TickManager.TicksGame % StartRandomFireEveryTicks == 0)
         {
             StartRandomFire();
         }
@@ -56,7 +46,7 @@ public class OPBombardment : OrbitalStrike
     private void CreateRandomExplosion()
     {
         var thingDef = def;
-        var num = OPBombDefGetValue.OPBombGetDmg(thingDef);
+        var num = OPBombDefGetValue.OpBombGetDmg(thingDef);
         if (num < 1)
         {
             num = 1;
@@ -67,7 +57,7 @@ public class OPBombardment : OrbitalStrike
             num = 99;
         }
 
-        var num2 = OPBombDefGetValue.OPBombGetImpactRadius(thingDef);
+        var num2 = OPBombDefGetValue.OpBombGetImpactRadius(thingDef);
         if (num2 < 1)
         {
             num2 = 1;
@@ -78,8 +68,8 @@ public class OPBombardment : OrbitalStrike
             num2 = 30;
         }
 
-        var num3 = OPBombDefGetValue.OPBombGetBlastMinRadius(thingDef);
-        var num4 = OPBombDefGetValue.OPBombGetBlastMaxRadius(thingDef);
+        var num3 = OPBombDefGetValue.OpBombGetBlastMinRadius(thingDef);
+        var num4 = OPBombDefGetValue.OpBombGetBlastMaxRadius(thingDef);
         if (num4 > 10)
         {
             num4 = 10;
@@ -113,7 +103,7 @@ public class OPBombardment : OrbitalStrike
 
     private void StartRandomFire()
     {
-        var num = OPBombDefGetValue.OPBombGetImpactRadius(def) + 2;
+        var num = OPBombDefGetValue.OpBombGetImpactRadius(def) + 2;
         FireUtility.TryStartFireIn((from x in GenRadial.RadialCellsAround(Position, num, true)
                 where x.InBounds(Map)
                 select x).RandomElementByWeight(x => DistanceChanceFactor.Evaluate(x.DistanceTo(Position))), Map,

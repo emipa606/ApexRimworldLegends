@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: charge explosion -->
+  <ARL_Bomb_ChargeGrenade.label>charge explosion</ARL_Bomb_ChargeGrenade.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <ARL_Bomb_ChargeGrenade.deathMessage>{0} has died in an explosion.</ARL_Bomb_ChargeGrenade.deathMessage>
+  <!-- EN: charge explosion -->
+  <ARL_Bomb_ChargeMinigun.label>charge explosion</ARL_Bomb_ChargeMinigun.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <ARL_Bomb_ChargeMinigun.deathMessage>{0} has died in an explosion.</ARL_Bomb_ChargeMinigun.deathMessage>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ARL_ToxicGas -->
+  <ARL_ToxicGas.label>ARL_ToxicGas</ARL_ToxicGas.label>
+  <!-- EN: {0} has been killed. -->
+  <ARL_ToxicGas.deathMessage>{0} has been killed.</ARL_ToxicGas.deathMessage>
+</LanguageData>

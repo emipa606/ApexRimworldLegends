@@ -4,18 +4,18 @@ namespace OPToxic;
 
 public class OPBeamDefGetValue
 {
-    public static float OPBeamGetDmgFact(ThingDef thingdef)
+    public static float OpBeamGetDmgFact(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBeamDefs>() ? thingdef.GetModExtension<OPBeamDefs>().OPBeamDmgFactor : 1f;
+        return thingDef.HasModExtension<OPBeamDefs>() ? thingDef.GetModExtension<OPBeamDefs>().OPBeamDmgFactor : 1f;
     }
 
-    public static float OPBeamGetRadius(ThingDef thingdef)
+    public static float OpBeamGetRadius(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBeamDefs>() ? thingdef.GetModExtension<OPBeamDefs>().OPBeamRadius : 8f;
+        return thingDef.HasModExtension<OPBeamDefs>() ? thingDef.GetModExtension<OPBeamDefs>().OPBeamRadius : 8f;
     }
 
-    public static int OPBeamGetNumFires(ThingDef thingdef)
+    public static int OpBeamGetNumFires(ThingDef thingDef)
     {
-        return thingdef.HasModExtension<OPBeamDefs>() ? thingdef.GetModExtension<OPBeamDefs>().OPBeamNumFirePts : 3;
+        return thingDef.HasModExtension<OPBeamDefs>() ? thingDef.GetModExtension<OPBeamDefs>().OPBeamNumFirePts : 3;
     }
 }

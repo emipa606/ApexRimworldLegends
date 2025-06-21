@@ -8,13 +8,9 @@ namespace OPToxic;
 
 public class OPPowerBeam : OrbitalStrike
 {
-    public const float Radius = 8f;
+    private static readonly IntRange flameDamageAmountRange = new(25, 50);
 
-    private const int FiresStartedPerTick = 3;
-
-    private static readonly IntRange FlameDamageAmountRange = new IntRange(25, 50);
-
-    private static readonly IntRange CorpseFlameDamageAmountRange = new IntRange(3, 5);
+    private static readonly IntRange corpseFlameDamageAmountRange = new(3, 5);
 
     private static readonly List<Thing> tmpThings = [];
 
@@ -23,7 +19,7 @@ public class OPPowerBeam : OrbitalStrike
         base.StartStrike();
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Destroyed)
@@ -32,7 +28,7 @@ public class OPPowerBeam : OrbitalStrike
         }
 
         var thingDef = def;
-        var num = OPBeamDefGetValue.OPBeamGetNumFires(thingDef);
+        var num = OPBeamDefGetValue.OpBeamGetNumFires(thingDef);
         if (num < 1)
         {
             num = 1;
@@ -51,29 +47,29 @@ public class OPPowerBeam : OrbitalStrike
 
     private void StartRandomFireAndDoFlameDamage(ThingDef OPBeamDef)
     {
-        var EffRadius = OPBeamDefGetValue.OPBeamGetRadius(OPBeamDef);
-        if (EffRadius < 1f)
+        var effRadius = OPBeamDefGetValue.OpBeamGetRadius(OPBeamDef);
+        if (effRadius < 1f)
         {
-            EffRadius = 1f;
+            effRadius = 1f;
         }
 
-        if (EffRadius > 15f)
+        if (effRadius > 15f)
         {
-            EffRadius = 15f;
+            effRadius = 15f;
         }
 
-        var intVec = (from x in GenRadial.RadialCellsAround(Position, EffRadius, true)
+        var intVec = (from x in GenRadial.RadialCellsAround(Position, effRadius, true)
             where x.InBounds(Map)
-            select x).RandomElementByWeight(x => 1f - Mathf.Min(x.DistanceTo(Position) / EffRadius, 1f) + 0.05f);
+            select x).RandomElementByWeight(x => 1f - Mathf.Min(x.DistanceTo(Position) / effRadius, 1f) + 0.05f);
         FireUtility.TryStartFireIn(intVec, Map, Rand.Range(0.1f, 0.5f), null);
         tmpThings.Clear();
         tmpThings.AddRange(intVec.GetThingList(Map));
         foreach (var thing1 in tmpThings)
         {
             var num = thing1 is not Corpse
-                ? FlameDamageAmountRange.RandomInRange
-                : CorpseFlameDamageAmountRange.RandomInRange;
-            var num2 = OPBeamDefGetValue.OPBeamGetDmgFact(OPBeamDef);
+                ? flameDamageAmountRange.RandomInRange
+                : corpseFlameDamageAmountRange.RandomInRange;
+            var num2 = OPBeamDefGetValue.OpBeamGetDmgFact(OPBeamDef);
             if (num2 > 2f)
             {
                 num2 = 2f;
@@ -96,12 +92,12 @@ public class OPPowerBeam : OrbitalStrike
             }
 
             var pawn = thing1 as Pawn;
-            BattleLogEntry_DamageTaken battleLogEntry_DamageTaken = null;
+            BattleLogEntry_DamageTaken battleLogEntryDamageTaken = null;
             if (pawn != null)
             {
-                battleLogEntry_DamageTaken = new BattleLogEntry_DamageTaken(pawn,
+                battleLogEntryDamageTaken = new BattleLogEntry_DamageTaken(pawn,
                     RulePackDefOf.DamageEvent_PowerBeam, instigator as Pawn);
-                Find.BattleLog.Add(battleLogEntry_DamageTaken);
+                Find.BattleLog.Add(battleLogEntryDamageTaken);
             }
 
             var flame = DamageDefOf.Flame;
@@ -109,7 +105,7 @@ public class OPPowerBeam : OrbitalStrike
             var thing = instigator;
             var thingDef = weaponDef;
             thing1.TakeDamage(new DamageInfo(flame, num3, 0f, -1f, thing, null, thingDef))
-                .AssociateWithLog(battleLogEntry_DamageTaken);
+                .AssociateWithLog(battleLogEntryDamageTaken);
         }
 
         tmpThings.Clear();

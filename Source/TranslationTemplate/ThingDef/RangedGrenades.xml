@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: charge grenades -->
+  <ARL_ChargeGrenade.label>charge grenades</ARL_ChargeGrenade.label>
+  <!-- EN: An Arc Star is a lightweight charge grenade dealing high damage over a very small area. It also serves as a great melee weapon. -->
+  <ARL_ChargeGrenade.description>An Arc Star is a lightweight charge grenade dealing high damage over a very small area. It also serves as a great melee weapon.</ARL_ChargeGrenade.description>
+  <!-- EN: handle -->
+  <ARL_ChargeGrenade.tools.handle.label>handle</ARL_ChargeGrenade.tools.handle.label>
+  <!-- EN: throw charge grenade -->
+  <ARL_ChargeGrenade.verbs.throw_charge_grenade.label>throw charge grenade</ARL_ChargeGrenade.verbs.throw_charge_grenade.label>
+  <!-- EN: charge grenade -->
+  <ARL_Projectile_ChargeGrenade.label>charge grenade</ARL_Projectile_ChargeGrenade.label>
+  <!-- EN: smoke grenade -->
+  <ARL_Projectile_SmokeGrenade.label>smoke grenade</ARL_Projectile_SmokeGrenade.label>
+  <!-- EN: toxic grenade -->
+  <ARL_Projectile_ToxicGrenade.label>toxic grenade</ARL_Projectile_ToxicGrenade.label>
+  <!-- EN: smoke grenades -->
+  <ARL_SmokeGrenade.label>smoke grenades</ARL_SmokeGrenade.label>
+  <!-- EN: Old school condensed smoke canister that explodes into a smoke wall on impact. -->
+  <ARL_SmokeGrenade.description>Old school condensed smoke canister that explodes into a smoke wall on impact.</ARL_SmokeGrenade.description>
+  <!-- EN: throw smoke grenade -->
+  <ARL_SmokeGrenade.verbs.throw_smoke_grenade.label>throw smoke grenade</ARL_SmokeGrenade.verbs.throw_smoke_grenade.label>
+  <!-- EN: toxic grenades -->
+  <ARL_ToxicGrenade.label>toxic grenades</ARL_ToxicGrenade.label>
+  <!-- EN: Charge powered lethal gas canister causing severe toxic buildup over a very short period of time. -->
+  <ARL_ToxicGrenade.description>Charge powered lethal gas canister causing severe toxic buildup over a very short period of time.</ARL_ToxicGrenade.description>
+  <!-- EN: throw toxic grenade -->
+  <ARL_ToxicGrenade.verbs.throw_toxic_grenade.label>throw toxic grenade</ARL_ToxicGrenade.verbs.throw_toxic_grenade.label>
+</LanguageData>

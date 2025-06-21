@@ -18,7 +18,7 @@ public class OPToxicGas : Gas
         Scribe_Values.Look(ref destroyTick, "destroyTick");
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         if (destroyTick <= Find.TickManager.TicksGame)
         {
@@ -26,7 +26,7 @@ public class OPToxicGas : Gas
         }
 
         graphicRotation += graphicRotationSpeed;
-        if (Destroyed || Find.TickManager.TicksGame % OPToxicDefGetValue.OPToxicGetSevUpVal(def) != 0)
+        if (Destroyed || Find.TickManager.TicksGame % OPToxicDefGetValue.OpToxicGetSevUpVal(def) != 0)
         {
             return;
         }
@@ -44,12 +44,12 @@ public class OPToxicGas : Gas
             if (thing is Pawn pawn && !pawn.RaceProps.IsMechanoid &&
                 pawn.Position == position)
             {
-                DoOPToxicGas(this, pawn);
+                doOpToxicGas(this, pawn);
             }
         }
     }
 
-    public void DoOPToxicGas(Thing Gas, Thing targ)
+    private static void doOpToxicGas(Thing Gas, Thing targ)
     {
         if (targ is not Pawn pawn || !pawn.health.capacities.CapableOf(PawnCapacityDefOf.Breathing))
         {
@@ -57,7 +57,7 @@ public class OPToxicGas : Gas
         }
 
         var namedSilentFail =
-            DefDatabase<HediffDef>.GetNamedSilentFail(OPToxicDefGetValue.OPToxicGetHediff(Gas.def));
+            DefDatabase<HediffDef>.GetNamedSilentFail(OPToxicDefGetValue.OpToxicGetHediff(Gas.def));
         if (namedSilentFail == null)
         {
             return;
@@ -77,7 +77,7 @@ public class OPToxicGas : Gas
 
         var statValue = pawn.GetStatValue(StatDefOf.ToxicResistance);
         statValue = Mathf.Min(statValue, 0.001f);
-        var num = OPToxicDefGetValue.OPToxicGetSev(Gas.def);
+        var num = OPToxicDefGetValue.OpToxicGetSev(Gas.def);
         if (num < 0.01f)
         {
             num = 0.01f;

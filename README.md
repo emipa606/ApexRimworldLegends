@@ -1,4 +1,4 @@
-# ApexRimworldLegends
+# [Apex: Rimworld Legends (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2567847051)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,21 +6,19 @@ Update of Oskar Potockis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 with permission
 
-- [strike]Now includes the CE patches made by Heart Eyes[/strike] Patches now included in the main CE-mod instead
+- ~~Now includes the CE patches made by Heart Eyes~~ Patches now included in the main CE-mod instead
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
 ![Image](https://i.imgur.com/tEVjIBi.png)
 
-
 ![Image](https://i.imgur.com/iLkd0uO.png)
 
 1.3.0a (07/04/2019): Mod now compatible with Combat Extended using the patch in the following link. Thanks Andross for creating the patch.
 
-[strike]Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757[/strike] Now included
+~~Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757~~ Now included
 
 1.4.0 (19/02/2020): This mod is now 1.1 compatible.
 1.3.0 (01/04/2019): New weapons: Smoke Grenades &amp; Toxic Grenades. Gas your enemies to death! Added a Ko-fi support button.
@@ -30,21 +28,17 @@ with permission
 
 ![Image](https://i.imgur.com/U3tq0ie.png)
 
-
 ![Image](https://i.imgur.com/qVCxGbi.png)
 
 
 
-
 ![Image](https://i.imgur.com/4z7INVX.png)
-
 
 I’m a graphic designer and an amateur programmer which roughly translates to a perfect modding material, however I never had the strength and patience to actually sit down and learn how to mod my favourite game - Rimworld. I was always worried of a new update totally destroying my hard work with new game mechanics, however since 1.0 got released, the update possibility dropped substantially. This was the right time to create my first ever Rimworld mod, so go easy on me. I always found the vanilla game to be lacking in variety. Don’t get me wrong, it has everything it needs to be a very fun game, however it could use some new animals, weapons, technologies etc. With a release of Apex: Legends, an idea came to my mind - why not put both of these games together in a form of a mod?
 
 Apex: Rimworld Legends is a vanilla-friendly weapon expansion adding over 20 new weapons to the game, all based on Apex: Legends weapons, but renamed into more general weapon types. VK-47 Flatline became a Bullpup Rifle, Wingman became a Hand Cannon and Mozambique is still useless. The graphics, sounds and statistics of these weapons are meant to represent unmodded Rimworld, with no weapon being overpowered or “Out of character”. Charge weapons have been expanded allowing for extra variety in combat, no longer forcing players to use a Charge rifle in late game. A new tier of late game weaponry has been added called “Mechanoid Weapons”, which becomes craftable after researching Johnson-Tanaka drive - One of the last available technologies before leaving the planet.
 
 ![Image](https://i.imgur.com/ffHXvuS.png)
-
 
 Following weapons have been added to the game. Bear in mind that the statistics of these weapons will be constantly tweaked according to players’ feedback.
 
@@ -54,18 +48,15 @@ Following weapons have been added to the game. Bear in mind that the statistics 
 
 ![Image](https://i.imgur.com/TjZ0yqN.png)
 
-
 ![Image](https://i.imgur.com/YfTRpRw.png)
 
 ![Image](https://i.imgur.com/0Aixdtc.png)
-
 
 ![Image](https://i.imgur.com/TThyQst.png)
 
 There shouldn’t be any incompatibilities or issues, but in case anything pops up, report issues in the comments.
 
 ![Image](https://i.imgur.com/oZM1i9z.png)
-
 
 Q: Do the Apex: Rimworld Legends weapons spawn randomly on pawns?
 A: Yes, they should be added to the available item pool when spawning raids.
@@ -79,7 +70,7 @@ A: That’s the plan! At the time of writing, L-Star is already in the mod, even
 Q: Is this mod compatibile with Combat Extended?
 A: It is with the patch. Load the patch after loading Apex Rimworld Legends.
 
-[strike]Link to the patch: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757[/strike] Now included
+~~Link to the patch: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757~~ Now included
 
 Q: Why is your mod special?
 A: I am a vanilla player. Anything that doesn't suit vanilla game makes me cringe and I stay away from it. I did however find the game lacking after some time, therefore I've created these weapons to be as accurate and as close to vanilla graphics style as possible. What is special? The best part is - nothing in this mod is special at all. Nothing will make you go "Oh that's unusual", because the whole purpose of this mod is to blend into the existing game.
@@ -91,7 +82,6 @@ Q: I like your design style, would you like to team up?
 A: Definitely. The best way to learn is to work with a lot of people. I could use someone to explain .xml a little bit more in-depth, and I can provide that person with accurate artwork for any project what-so-ever.
 
 ![Image](https://i.imgur.com/suv8HZw.png)
-
 
 Apex weapons and logo are property of Respawn Studio. Go check out their awesome new battle royale!
 
@@ -106,18 +96,13 @@ Andross for doing a CE Patch from scratch. Guy's a legend.
 ![Image](https://i.imgur.com/PiqAXpl.png)
 
 
+[![Image](https://i.imgur.com/yKvATIk.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593)
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593]![Image](https://i.imgur.com/yKvATIk.png)
+[![Image](https://i.imgur.com/MkmFIei.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511)
 
+[![Image](https://i.imgur.com/YjopW4V.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1700683323)
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://i.imgur.com/MkmFIei.png)
-
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1700683323]![Image](https://i.imgur.com/YjopW4V.png)
-
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143]![Image](https://i.imgur.com/7lFbloq.png)
-
+[![Image](https://i.imgur.com/7lFbloq.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143)
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -125,13 +110,12 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143]![Image](https
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2567847051]![Image](https://img.shields.io/github/v/release/emipa606/ApexRimworldLegends?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/ApexRimworldLegends?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2567847051) | tags:  weapons,  expansion
