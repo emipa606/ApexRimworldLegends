@@ -12,35 +12,36 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Oskar Potockis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593
 with permission
 
 - [strike]Now includes the CE patches made by Heart Eyes[/strike] Patches now included in the main CE-mod instead
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/ApexRimworldLegends][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/ApexRimworldLegends][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
-[img]https://i.imgur.com/tEVjIBi.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
+[img]https://img.litet.net/tEVjIBi.png[/img]
 
-[img]https://i.imgur.com/iLkd0uO.png[/img]
+[img]https://img.litet.net/iLkd0uO.png[/img]
 1.3.0a (07/04/2019): Mod now compatible with Combat Extended using the patch in the following link. Thanks Andross for creating the patch.
 
 [strike]Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1706516757[/strike] Now included
@@ -51,33 +52,33 @@ with permission
 1.1.0 (21/03/2019): New weapon: Grenade Launcher. Added movement penalty when equipped with Mechanoid Sniper rifle and Mechanoid Rocket Launcher.
 1.0.0 (20/03/2019): Release
 
-[img]https://i.imgur.com/U3tq0ie.png[/img]
+[img]https://img.litet.net/U3tq0ie.png[/img]
 
-[img]https://i.imgur.com/qVCxGbi.png[/img]
+[img]https://img.litet.net/qVCxGbi.png[/img]
 
 
 
-[img]https://i.imgur.com/4z7INVX.png[/img]
+[img]https://img.litet.net/4z7INVX.png[/img]
 
 I’m a graphic designer and an amateur programmer which roughly translates to a perfect modding material, however I never had the strength and patience to actually sit down and learn how to mod my favourite game - Rimworld. I was always worried of a new update totally destroying my hard work with new game mechanics, however since 1.0 got released, the update possibility dropped substantially. This was the right time to create my first ever Rimworld mod, so go easy on me. I always found the vanilla game to be lacking in variety. Don’t get me wrong, it has everything it needs to be a very fun game, however it could use some new animals, weapons, technologies etc. With a release of Apex: Legends, an idea came to my mind - why not put both of these games together in a form of a mod?
 
 Apex: Rimworld Legends is a vanilla-friendly weapon expansion adding over 20 new weapons to the game, all based on Apex: Legends weapons, but renamed into more general weapon types. VK-47 Flatline became a Bullpup Rifle, Wingman became a Hand Cannon and Mozambique is still useless. The graphics, sounds and statistics of these weapons are meant to represent unmodded Rimworld, with no weapon being overpowered or “Out of character”. Charge weapons have been expanded allowing for extra variety in combat, no longer forcing players to use a Charge rifle in late game. A new tier of late game weaponry has been added called “Mechanoid Weapons”, which becomes craftable after researching Johnson-Tanaka drive - One of the last available technologies before leaving the planet.
 
-[img]https://i.imgur.com/ffHXvuS.png[/img]
+[img]https://img.litet.net/ffHXvuS.png[/img]
 
 Following weapons have been added to the game. Bear in mind that the statistics of these weapons will be constantly tweaked according to players’ feedback.
 
-[img]https://i.imgur.com/d9tcOKx.png[/img]
-[img]https://i.imgur.com/xCwGTD4.png[/img]
-[img]https://i.imgur.com/TjZ0yqN.png[/img]
+[img]https://img.litet.net/d9tcOKx.png[/img]
+[img]https://img.litet.net/xCwGTD4.png[/img]
+[img]https://img.litet.net/TjZ0yqN.png[/img]
 
-[img]https://i.imgur.com/YfTRpRw.png[/img]
-[img]https://i.imgur.com/0Aixdtc.png[/img]
+[img]https://img.litet.net/YfTRpRw.png[/img]
+[img]https://img.litet.net/0Aixdtc.png[/img]
 
-[img]https://i.imgur.com/TThyQst.png[/img]
+[img]https://img.litet.net/TThyQst.png[/img]
 There shouldn’t be any incompatibilities or issues, but in case anything pops up, report issues in the comments.
 
-[img]https://i.imgur.com/oZM1i9z.png[/img]
+[img]https://img.litet.net/oZM1i9z.png[/img]
 
 Q: Do the Apex: Rimworld Legends weapons spawn randomly on pawns?
 A: Yes, they should be added to the available item pool when spawning raids.
@@ -102,7 +103,7 @@ A: Yes, you can add it and remove it whenever you like.
 Q: I like your design style, would you like to team up?
 A: Definitely. The best way to learn is to work with a lot of people. I could use someone to explain .xml a little bit more in-depth, and I can provide that person with accurate artwork for any project what-so-ever.
 
-[img]https://i.imgur.com/suv8HZw.png[/img]
+[img]https://img.litet.net/suv8HZw.png[/img]
 
 Apex weapons and logo are property of Respawn Studio. Go check out their awesome new battle royale!
 
@@ -114,28 +115,28 @@ Pelador for help with advanced coding. Check out his mods!
 
 Andross for doing a CE Patch from scratch. Guy's a legend.
 
-[img]https://i.imgur.com/PiqAXpl.png[/img]
+[img]https://img.litet.net/PiqAXpl.png[/img]
 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593][img]https://i.imgur.com/yKvATIk.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1688705593][img]https://img.litet.net/yKvATIk.png[/img][/url]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511][img]https://i.imgur.com/MkmFIei.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511][img]https://img.litet.net/MkmFIei.png[/img][/url]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1700683323][img]https://i.imgur.com/YjopW4V.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1700683323][img]https://img.litet.net/YjopW4V.png[/img][/url]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143][img]https://i.imgur.com/7lFbloq.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143][img]https://img.litet.net/7lFbloq.png[/img][/url]
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2567847051][img]https://img.shields.io/github/v/release/emipa606/ApexRimworldLegends?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  weapons,  expansion</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2567847051][img]https://img.shields.io/github/v/release/emipa606/ApexRimworldLegends?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | expansion, weapons</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

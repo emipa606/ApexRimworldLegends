@@ -2,7 +2,7 @@ using Verse;
 
 namespace OPToxic;
 
-public class OPBeamDefGetValue
+public static class OPBeamDefGetValue
 {
     public static float OpBeamGetDmgFact(ThingDef thingDef)
     {

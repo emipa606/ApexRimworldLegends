@@ -3,4 +3,23 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="OPToxic/OPToxic.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DamageDefs/">
+    <File Path="../1.7/Defs/DamageDefs/Damages_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDef/">
+    <File Path="../1.7/Defs/SoundDef/ARL_Grenades.xml" />
+    <File Path="../1.7/Defs/SoundDef/ARL_Weapons.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDef/">
+    <File Path="../1.7/Defs/ThingDef/ARL_Gas_Various.xml" />
+    <File Path="../1.7/Defs/ThingDef/Defs_OPToxin.xml" />
+    <File Path="../1.7/Defs/ThingDef/RangedGrenades.xml" />
+    <File Path="../1.7/Defs/ThingDef/RangedWeapons.xml" />
+  </Folder>
 </Solution>

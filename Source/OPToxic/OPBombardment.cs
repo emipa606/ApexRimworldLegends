@@ -19,11 +19,6 @@ public class OPBombardment : OrbitalStrike
         DistanceChanceFactor = simpleCurve;
     }
 
-    public override void StartStrike()
-    {
-        base.StartStrike();
-    }
-
     protected override void Tick()
     {
         base.Tick();

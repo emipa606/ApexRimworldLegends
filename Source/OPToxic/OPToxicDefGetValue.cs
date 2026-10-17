@@ -2,7 +2,7 @@ using Verse;
 
 namespace OPToxic;
 
-public class OPToxicDefGetValue
+public static class OPToxicDefGetValue
 {
     public static string OpToxicGetHediff(ThingDef thingDef)
     {

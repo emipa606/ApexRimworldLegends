@@ -2,7 +2,7 @@ using Verse;
 
 namespace OPToxic;
 
-public class OPBombDefGetValue
+public static class OPBombDefGetValue
 {
     public static int OpBombGetDmg(ThingDef thingDef)
     {

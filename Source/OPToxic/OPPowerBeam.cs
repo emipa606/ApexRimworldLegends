@@ -14,11 +14,6 @@ public class OPPowerBeam : OrbitalStrike
 
     private static readonly List<Thing> tmpThings = [];
 
-    public override void StartStrike()
-    {
-        base.StartStrike();
-    }
-
     protected override void Tick()
     {
         base.Tick();
